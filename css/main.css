@@ -10,6 +10,7 @@
     font-weight: normal;
     -webkit-tap-highlight-color: transparent;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 :root{
@@ -65,7 +66,7 @@ main > footer{
     align-items: flex-start;
 
     position: relative;
-    overflow-x: visible;
+    overflow: visible;
 }
 
 main > footer p{
