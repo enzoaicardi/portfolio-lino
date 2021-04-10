@@ -44,6 +44,7 @@ main{
     overflow-y: auto;
     overflow-x: hidden;
     perspective: 1px;
+    perspective-origin: 50% 50%;
 }
 
 main > *{

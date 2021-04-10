@@ -1,6 +1,6 @@
 
 .job{
-    position: relative;
+    /* position: relative; */
     padding: 10vh 0 40vh 0;
 
     justify-content: flex-start;
@@ -8,7 +8,7 @@
 
 .job .astronaute{
     position: absolute;
-    top: 25%;
+    top: 125vh;
     left: 0vw;
     z-index: -1;
 
@@ -40,7 +40,7 @@
 
 .job .navette{
     position: absolute;
-    top: 50vh;
+    top: 150vh;
     right: -20vw;
     z-index: -1;
 
