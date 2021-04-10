@@ -30,9 +30,6 @@ body{
     flex-direction: column;
     justify-content: flex-start;
     align-items: stretch;
-
-    transition: 0s linear;
-    transition-property: background-position; 
 }
 
 main{
@@ -46,9 +43,13 @@ main{
     perspective: 1px;
 }
 
+main > *{
+    flex: none;
+}
+
 /* PIED DE PAGE */
 
-body > footer{
+main > footer{
     height: 300px;
     max-height: 32vw;
 
@@ -64,7 +65,7 @@ body > footer{
     position: relative;
 }
 
-body > footer p{
+main > footer p{
     position: absolute;
     bottom: 6px;
     left: 6px;

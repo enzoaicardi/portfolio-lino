@@ -3,17 +3,19 @@
     position: relative;
     padding: 10vh 0 40vh 0;
 
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .job .astronaute{
     position: absolute;
-    top: 35%;
-    left: 5vw;
+    top: 25%;
+    left: 0vw;
     z-index: -1;
 
     max-width: 300px;
     width: 30vw;
+
+    transform: translateZ(-0.2px) scale(1.2);
 
     /* animation: astro 40s ease-in-out 0s infinite alternate; */
 }
