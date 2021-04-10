@@ -9,6 +9,7 @@
     list-style: none;
     font-weight: normal;
     -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
 }
 
 :root{
@@ -31,7 +32,6 @@ body{
     justify-content: flex-start;
     align-items: stretch;
 
-    overflow: hidden;
 }
 
 main{
@@ -65,6 +65,7 @@ main > footer{
     align-items: flex-start;
 
     position: relative;
+    overflow-x: visible;
 }
 
 main > footer p{
