@@ -16,9 +16,8 @@ function anime(){
     var deg = (v/dh)*20;
 
     body.style.backgroundPosition = 'left 0px top ' + st/2 + 'px';
-    navette.style.top = Math.round(st/1.5-50) + 'px';
-    astronaute.style.top = (deg/1.5 + 35) + '%';
-    astronaute.style.transform = 'rotateZ(-' + deg + 'deg)';
+    navette.style.transform = 'translateY(' + st/1.5 + 'px)';
+    astronaute.style.transform = 'translateY(' + deg*10 + 'px) rotateZ(-' + deg + 'deg)';
 
 }
 
