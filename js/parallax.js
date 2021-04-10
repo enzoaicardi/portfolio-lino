@@ -17,7 +17,7 @@ function anime(){
 
     body.style.backgroundPosition = 'left 0px top ' + st/2 + 'px';
     navette.style.transform = 'translateY(' + st/1.5 + 'px)';
-    astronaute.style.transform = 'translateY(' + deg*10 + 'px) rotateZ(-' + deg + 'deg)';
+    astronaute.style.transform = 'translateY(' + deg*10 + 'px) rotateZ(-' + deg + 'deg)'; 
 
 }
 

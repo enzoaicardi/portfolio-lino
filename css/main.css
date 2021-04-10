@@ -31,7 +31,7 @@ body{
     align-items: stretch;
 
     transition: 0s linear;
-    transition-property: background-position;
+    transition-property: background-position; 
 }
 
 main{
