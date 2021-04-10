@@ -23,7 +23,6 @@ body{
     background-image: url("../img/etoile_fond.svg");
     background-size: 600px 600px;
     background-position: top left;
-    background-attachment: fixed;
     background-repeat: repeat;
 
     display: flex;
