@@ -38,12 +38,16 @@
 
 .job .navette{
     position: absolute;
-    top: -50px;
-    right: 2vw;
+    top: 50vh;
+    right: -20vw;
     z-index: -1;
 
     max-width: 200px;
     width: 20vw;
+    transform: translateZ(-1px) scale(2);
+    transform-origin: 0 100%;
+
+    /* background-color: red; */
 }
 
 .job h1{
