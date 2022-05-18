@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, sans-serif;
+    outline: none;
+    list-style: none;
+    font-weight: normal;
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-color: #0e0033;
+    background-image: url("../img/etoile_fond.svg");
+    background-size: 600px 600px;
+    background-position: top left;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 1px;
+    perspective-origin: 50% 50%;
+}
+
+main > *{
+    flex: none;
+}
+
+/* PIED DE PAGE */
+
+main > footer{
+    height: 300px;
+    max-height: 32vw;
+
+    background-image: url("../img/nuage_bas.svg"), url("../img/planet_bas.svg");
+    background-size: auto 100%, 30% auto;
+    background-position: bottom left, bottom right;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    position: relative;
+    overflow: visible;
+}
+
+main > footer p{
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    font-size: 1rem;
+
+    color: rgb(201, 178, 223);
+}
