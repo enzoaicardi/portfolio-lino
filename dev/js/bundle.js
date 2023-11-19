@@ -1,0 +1,5 @@
+import './embla.js'
+import './flect.js'
+import './components/heading.js'
+import './components/slider.js'
+import './components/gallery.js'

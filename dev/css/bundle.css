@@ -1,0 +1,9 @@
+/* Global styles */
+@import url("./reset.css");
+@import url("./main.css");
+@import url("./embla.css");
+
+/* Components */
+@import url("./components/heading.css");
+@import url("./components/gallery.css");
+@import url("./components/slider.css");

@@ -1,0 +1,30 @@
+:root{
+
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+    color: #2B2B2B;
+
+    --color-dark: #2B2B2B;
+    --color-gray: #aeaeae;
+    --color-background: #ffffff;
+
+}
+
+main{
+
+    width: 100%;
+    max-width: 68rem;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+b{
+    font-weight: 600;
+}

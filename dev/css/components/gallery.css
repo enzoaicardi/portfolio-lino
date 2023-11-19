@@ -1,0 +1,21 @@
+
+.ai-gallery{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    --slide-width: 12rem;
+    --slide-height: 16rem;
+}
+
+.ai-gallery .vas-y-clique{
+    width: 18rem;
+    
+    margin-left: auto;
+    margin-right: 1rem;
+    margin-bottom: -4rem;
+    margin-top: -4rem;
+
+    position: relative;
+    z-index: 10;
+}
