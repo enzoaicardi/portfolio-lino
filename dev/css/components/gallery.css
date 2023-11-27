@@ -1,21 +1,26 @@
-
-.ai-gallery{
-    margin-left: auto;
-    margin-right: auto;
+.ai-gallery {
+    width: 100%;
     position: relative;
 
     --slide-width: 12rem;
     --slide-height: 16rem;
 }
 
-.ai-gallery .vas-y-clique{
+.ai-gallery .vas-y-clique {
     width: 18rem;
-    
-    margin-left: auto;
-    margin-right: 1rem;
-    margin-bottom: -4rem;
-    margin-top: -4rem;
-
-    position: relative;
+    position: absolute;
     z-index: 10;
+
+    top: -15rem;
+    left: auto;
+    right: 1rem;
+}
+
+.ai-gallery .pouce-leve {
+    width: 8rem;
+    position: absolute;
+    z-index: 10;
+
+    left: 1.5rem;
+    bottom: -2rem;
 }

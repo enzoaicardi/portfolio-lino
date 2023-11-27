@@ -1,0 +1,23 @@
+.ai-me {
+    width: 100%;
+    max-width: 50rem;
+}
+
+.ai-me h2 {
+    font-size: var(--font-title);
+    margin-bottom: 4rem;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.ai-me-body {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.ai-me img {
+    max-width: 30%;
+    aspect-ratio: 1 / 1;
+}
