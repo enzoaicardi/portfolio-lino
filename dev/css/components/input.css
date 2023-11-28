@@ -29,10 +29,3 @@
     outline-offset: 0.25rem;
     outline-color: var(--color-dark);
 }
-
-.ai-input-body a {
-    padding: 1rem;
-    background-color: var(--color-dark);
-    color: var(--color-background);
-    text-transform: uppercase;
-}

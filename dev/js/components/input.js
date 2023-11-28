@@ -12,7 +12,7 @@ define("input", function (datas, render) {
             <div class="ai-input-body">
                 <input x-type="type" x-placeholder="placeholder">
                 <x-if var="button">
-                    <a x-href="link" x-text="button"></a>
+                    <a class="button" x-href="link" x-text="button"></a>
                 </x-if>
             </div>
         </div>

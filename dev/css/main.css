@@ -1,14 +1,18 @@
 :root {
-    font-family: "Kanit", sans-serif;
-    font-weight: 300;
-    color: #2b2b2b;
-
     --color-primary: #ef4b4b;
     --color-dark: #2b2b2b;
     --color-gray: #aeaeae;
     --color-background: #ffffff;
 
-    --font-title: 2rem;
+    --font-h1: 2.8rem;
+    --font-h2: 2rem;
+    --font-big: 1.4rem;
+    --font-regular: 1.2rem;
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-size: var(--font-regular);
+    color: #2b2b2b;
 }
 
 main {
@@ -37,4 +41,41 @@ b {
 .loop-arrow {
     max-width: 60%;
     width: 20rem;
+}
+
+.button {
+    padding: 1rem;
+    background-color: var(--color-dark);
+    color: var(--color-background);
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 50rem) {
+    main {
+        gap: 6rem;
+    }
+    :root {
+        --font-h1: 2.2rem;
+        --font-h2: 1.8rem;
+        --font-big: 1.2rem;
+        --font-regular: 1rem;
+    }
+    .button {
+        padding: 0.5rem 0.8rem;
+    }
+}
+
+@media screen and (max-width: 40rem) {
+    main {
+        gap: 3rem;
+    }
+    :root {
+        --font-h1: 2rem;
+        --font-h2: 1.6rem;
+        --font-big: 1rem;
+        --font-regular: 1rem;
+    }
+    .button {
+        padding: 0.5rem 0.8rem;
+    }
 }

@@ -26,7 +26,7 @@ define("slider", function (datas, render) {
 
     this.refs("slide").forEach((slide) =>
         slide.addEventListener("click", (event) => {
-            console.log(event.currentTarget.getAttribute("project"));
+            window.setProject(event.currentTarget.getAttribute("project"));
         })
     );
 

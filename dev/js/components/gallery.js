@@ -16,7 +16,9 @@ define("gallery", function (datas, render) {
     `);
 
     setInterval(() => {
-        let num = Math.floor(Math.random() * this.refs("slider").length);
-        this.refs("slider")[num].carousel.scrollNext();
+        if (!window.sliderPaused) {
+            let num = Math.floor(Math.random() * this.refs("slider").length);
+            this.refs("slider")[num].carousel.scrollNext();
+        }
     }, 2000);
 });

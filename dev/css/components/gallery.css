@@ -24,3 +24,15 @@
     left: 1.5rem;
     bottom: -2rem;
 }
+
+@media screen and (max-width: 40rem) {
+    .ai-gallery .vas-y-clique {
+        width: 12rem;
+        top: -10rem;
+        right: -2rem;
+    }
+    .ai-gallery .pouce-leve {
+        width: 7rem;
+        left: 0.5rem;
+    }
+}
