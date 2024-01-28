@@ -1,11 +1,3 @@
-import "./embla.js";
-import "./flect.js";
-import "./components/heading.js";
-import "./components/slider.js";
-import "./components/gallery.js";
-import "./components/input.js";
-import "./components/me.js";
-import "./components/project.js";
-import "./components/project/header.js";
-import "./components/project/hero.js";
-import "./components/project/row.js";
+import "./app.js";
+import "./pages/home.js";
+import "./pages/project.js";

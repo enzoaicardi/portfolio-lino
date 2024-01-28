@@ -1,12 +1,3 @@
 /* Global styles */
 @import url("./reset.css");
-@import url("./main.css");
-@import url("./embla.css");
-
-/* Components */
-@import url("./components/heading.css");
-@import url("./components/gallery.css");
-@import url("./components/slider.css");
-@import url("./components/input.css");
-@import url("./components/me.css");
-@import url("./components/project.css");
+@import url("./app.css");

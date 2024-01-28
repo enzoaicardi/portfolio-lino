@@ -5,44 +5,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" href="./favicon.png" />
         <title>Lino Aicardi | Créations</title>
-
-        <link rel="stylesheet" href="./dev/css/bundle.css" />
-        <script src="./dev/js/bundle.js" type="module"></script>
-
         <link
             href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500;600&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="./dev/css/bundle.css" />
+        <script src="./dev/js/bundle.js" type="module" defer></script>
     </head>
+
     <body>
-        <main>
-            <x-project></x-project>
-
-            <x-heading></x-heading>
-
-            <x-gallery></x-gallery>
-
-            <x-input
-                placeholder="adresse@email.com"
-                label="N'hésite pas !"
-                button="Contact moi"
-                link="mailto:lino.aicardi@gmail.com"
-            ></x-input>
-
-            <x-me
-                title="Salut !"
-                text="<b>Moi c’est Lino</b>, je suis un un créatif originaire de la région lyonnaise, expatrié à Montréal depuis août 2021.<br><br>Mes créations et mon approche du graphisme sont influencées par mes passions : le sport et l'art, entre autres. Je travaille dans ce domaine depuis ma sortie du lycée en France en 2018, et j'ai continué à évoluer grâce à de nombreux projets personnels, mes études, ainsi que des contrats toujours plus stimulants.<br><br>Mon style est amusant et caractérisé par des couleurs vives. J'adore illustrer la diversité dans mes créations en entremêlant différents personnages. Côté graphisme, j'aime travailler sur des identités visuelles mémorables qui reflètent parfaitement mes clients."
-                src="./dev/assets/images/illu/vinyl.png"
-            ></x-me>
-
-            <img class="loop-arrow" src="./dev/assets/icons/loop-arrow.svg" />
-
-            <x-me
-                title="Infos"
-                align="center"
-                text="<b>Mail:</b> lino.aicardi@gmail.com<br><br><b>Numéro:</b> 07.67.64.00.73<br><br><b>Site:</b> lino.aicardi.pro<br><br><b>Instagram:</b> lino_aicardi<br><br><b>Dribble:</b> Lino Aicardi"
-                src="./dev/assets/images/illu/vinyl.png"
-            ></x-me>
-        </main>
+        <x-app>
+            <template x-route="^(/|/index\.html)$">
+                <x-page-home></x-page-home>
+            </template>
+            <template x-route="\?project=([a-z-_]+)">
+                <x-page-project x-name="params()[1]"></x-page-project>
+            </template>
+        </x-app>
     </body>
 </html>

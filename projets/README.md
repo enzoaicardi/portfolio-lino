@@ -1,3 +1,0 @@
-# Types de blocs
-
-## Banner
